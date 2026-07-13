@@ -1,0 +1,105 @@
+---
+title: "Research"
+---
+
+## Working Papers
+
+<div class="paper-card">
+  <div class="paper-title">Attribute-Based Subsidies and Market Power: An Application to Electric Vehicles</div>
+  <div class="paper-authors">with Panle Barwick and Shanjun Li</div>
+  <div class="paper-status">Revise &amp; Resubmit, Journal of Political Economy</div>
+  <div class="paper-links">
+    <a href="https://www.dropbox.com/scl/fi/4o06h7dus05x0hngn2tsl/EV-subsidy.pdf?rlkey=po2eu5bq4r3z2f1i5hn8rf04n&amp;dl=0" target="_blank">Paper</a>
+    <a href="https://voxchina.org/show-3-373.html" target="_blank">VoxChina</a>
+  </div>
+  <details class="abstract">
+    <summary>Abstract</summary>
+    <p>Attribute-based subsidies are commonly used to promote the diffusion of energy-efficient products which are often manufactured in industries with significant market power. To understand the impacts of these subsidies, we first develop a theoretical framework of attribute-based subsidies in the presence of market power. The model illustrates that the welfare impact of subsidies critically hinges on firms' product attribute choices and their implications for environmental externalities and market power. We then develop and estimate an equilibrium model with endogenous product attributes using comprehensive data on China's vehicle market. Based on the model estimates, we conduct counterfactual simulations to examine the impacts of different subsidy designs. Relative to attribute-based subsidies, uniform subsidies favor small and environmental-friendly vehicles but exacerbate the quantity distortion from market power for high-quality products. In contrast, subsidies based on the driving range and battery capacity or vehicle weight generate a large consumer surplus by improving product quality and mitigating market power. Capacity-based subsidies induce attributes valued by consumers, mitigate market power, and lead to the largest welfare gain at a moderate loss of environmental benefit. The findings highlight the importance of incorporating attribute choice and market power considerations in designing attributes-based policies.</p>
+  </details>
+</div>
+
+<div class="paper-card">
+  <div class="paper-title">Learning by Doing in the Global Electric Vehicle Battery Industry and Implications for Government Policies</div>
+  <div class="paper-authors">with Panle Barwick, Shanjun Li, and Nahim Zahur</div>
+  <div class="paper-status">Revise &amp; Resubmit, American Economic Review</div>
+  <div class="paper-links">
+    <a href="https://www.dropbox.com/s/ztek9f53cwmi0on/EV%20battery.pdf?dl=0" target="_blank">Paper</a>
+    <a href="https://bfi.uchicago.edu/insights/drive-down-the-cost-learning-by-doing-and-government-policies-in-the-global-ev-battery-industry/" target="_blank">BFI Briefing</a>
+    <a href="https://www.voxchina.org/show-3-402.html" target="_blank">VoxChina</a>
+  </div>
+  <details class="abstract">
+    <summary>Abstract</summary>
+    <p>The global battery industry has achieved significant cost savings: electric vehicle (EV) battery costs have dropped by more than 90% over the past decade. This study assesses the extent to which this sharp decline in lithium-ion battery prices is attributable to learning-by-doing, and quantifies the impact of government policies (subsidies and local protection policies) on learning. Our analysis is based on a rich dataset consisting of 1) model-level sales, prices, and attributes of EVs and 2) battery suppliers and characteristics, for 13 countries from 2013 to 2020, that together account for over 95% of global EV sales. We estimate a structural model of the global EV industry, accounting for consumer vehicle choices, EV makers' pricing decisions, and bilateral bargaining between EV manufacturers and battery suppliers over battery prices. We recover the model-implied battery costs and evaluate how battery costs change with the accumulated production experience of battery suppliers, finding that learning-by-doing explains a substantial portion of the observed battery cost reductions. Lastly, we use the estimated model to examine the strategies of the US and China to protect their domestic battery industries: both countries require automakers to use domestically produced batteries to receive EV subsidies. We simulate equilibrium outcomes without such restrictions to evaluate the impact of local protectionism on cost-saving innovations in the global battery industry.</p>
+  </details>
+</div>
+
+<div class="paper-card">
+  <div class="paper-title">Subsidies versus Tradable Credits for Electric Vehicles: The Role of Market Power in the Credit Market</div>
+  <div class="paper-status">Revise &amp; Resubmit, Econometrica (Job Market Paper)</div>
+  <div class="paper-links">
+    <a href="https://www.dropbox.com/scl/fi/su0lzq6r6eukhgnvlllp2/JMP.pdf?dl=0&amp;rlkey=ja2xohmggiixwgeyj88kqp9mr&amp;st=utrf92qa" target="_blank">Paper</a>
+  </div>
+  <details class="abstract">
+    <summary>Abstract</summary>
+    <p>As electric vehicle (EV) adoption expands, policymakers consider tradable emission credit systems to replace purchase subsidies. This switch not only eliminates subsidy expenditures but also introduces a credit market with two-sided market power: conventional automakers demanding credits act as an oligopsony, while EV makers supplying credits act as an oligopoly. I develop a theoretical framework in which firms leverage their market power in the output market to manipulate the credit price, which encourages them to raise the prices of their primary fuel-type vehicles. To evaluate the welfare implications, I estimate a structural model that accounts for equilibrium product portfolios, vehicle prices, and the credit price, using data from forty major cities in China. Eliminating subsidies reduces total surplus by about 47 billion RMB per year, while firms’ strategic behavior under credit trading further reduces consumer surplus by about 20 billion RMB, with losses exceeding gains in profits and environmental benefits.</p>
+  </details>
+</div>
+
+<div class="paper-card">
+  <div class="paper-title">Equitable Energy Transitions? The Efficiency and Distributional Effects of Subsidies for Used Electric Vehicles</div>
+  <div class="paper-authors">with Hunt Allcott, Tess Snyder, and Levi Kiefer</div>
+  <div class="paper-links">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006680" target="_blank">SSRN</a>
+  </div>
+  <details class="abstract">
+    <summary>Abstract</summary>
+    <p>We study the efficiency and distributional effects of the Inflation Reduction Act (IRA) tax credits for purchasing used electric vehicles (EVs), which aimed to address concerns that new EV tax credits primarily benefit higher-income buyers. We show theoretically that under certain conditions, tax credits for new versus used EVs have the <em>same</em> economic incidence because they interact through used EV resale values. However, using confidential dealership transaction data, we find that used EV prices increased by only a limited amount after the IRA was enacted and the tax credits became available, suggesting that the initial economic incidence fell primarily on EV buyers who were eligible for the credit. Bunching of transaction prices below the credit's $25,000 price threshold increased markedly in 2024 when buyers could immediately receive the credit amount as a cash rebate. We then assess the long-run welfare effects of EV tax credits using a novel non-stationary dynamic structural model of new and used vehicle markets.</p>
+  </details>
+</div>
+
+## Work in Progress
+
+<div class="wip-item">
+  <div class="wip-title">Echoes of Leasing: Electric Vehicle Pricing in the Green Transition</div>
+  <div>with Luming Chen and Haokun Sun</div>
+</div>
+
+<div class="wip-item">
+  <div class="wip-title">Who Earns When Cars Drive? Autopilot Learning, Spillovers, and the Electric Vehicle Transition</div>
+  <div>with Shaoda Wang and Kai Gong</div>
+</div>
+
+<div class="wip-item">
+  <div class="wip-title">Market Power in a Lemon Market: Entry of Dominant Manufacturers into the Used Goods Market</div>
+  <div>with Jiawei Yang and Sanghwa Ahn</div>
+</div>
+
+<div class="wip-item">
+  <div class="wip-title">Dual Network Effects in the EV Transition: Rise of Charging, Decline of Gas Stations</div>
+  <div>with Jasmine Hao and Jinge Li</div>
+</div>
+
+## Publications
+
+<div class="publication-item">
+  <div class="publication-title">Industrial Policies and Innovation: Evidence from the Global Automobile Industry</div>
+  <div><em>International Journal of Industrial Organization</em> (2026)</div>
+  <div>with Yucheng Wang, Panle Barwick, Shanjun Li, and Nahim Zahur</div>
+  <div class="paper-links">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0167718725000967" target="_blank">Journal</a>
+    <a href="https://bfi.uchicago.edu/insights/industrial-policies-and-innovation-evidence-from-the-global-automobile-industry/" target="_blank">BFI Briefing</a>
+  </div>
+  <div class="paper-status">NBER featured working paper (December 2024); covered by BFI, EPIC, Vox, and VoxEU.</div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-title">Pass-Through of Electric Vehicle Subsidies: A Global Analysis</div>
+  <div><em>AEA Papers and Proceedings</em> (2023)</div>
+  <div>with Panle Barwick, Binglin Wang, and Nahim Zahur</div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-title">Knowledge Spillovers and Patent Citations: Trends in Geographic Localization, 1976–2015</div>
+  <div><em>Economics of Innovation and New Technology</em> (2022)</div>
+  <div>with Jihong Lee and Ryungha Oh</div>
+</div>
