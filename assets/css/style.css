@@ -26,63 +26,50 @@ body {
   line-height: 1.62;
 }
 
-.topbar {
+/* The header is full-width on every page. The navigation itself is centered
+   relative to the browser viewport, not relative to the content columns. */
+.site-header {
   position: sticky;
   top: 0;
-  z-index: 20;
-  background: rgba(255, 255, 255, 0.97);
+  z-index: 100;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(8px);
 }
 
-.topbar-inner {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 0 1rem;
-}
-
-.topnav {
+.site-nav {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  width: max-content;
-  max-width: 100%;
-  min-height: 58px;
-  margin: 0 auto;
-  gap: 2rem;
+  width: 100%;
+  min-height: 64px;
+  margin: 0;
+  padding: 0 1.25rem;
+  gap: 2.6rem;
   white-space: nowrap;
-  overflow-x: auto;
-  scrollbar-width: none;
 }
 
-.topnav::-webkit-scrollbar {
-  display: none;
-}
-
-.topnav a {
+.site-nav a {
   position: relative;
   display: inline-flex;
   align-items: center;
-  min-height: 58px;
+  min-height: 64px;
   color: #2e2e2e;
   font-family: "Work Sans", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
 }
 
-.topnav a:hover,
-.topnav a:focus {
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a.active {
   color: var(--link);
 }
 
-.topnav a.active {
-  color: var(--link);
-}
-
-.topnav a.active::after {
+.site-nav a.active::after {
   content: "";
   position: absolute;
   right: 0;
@@ -92,7 +79,7 @@ body {
   background: var(--link);
 }
 
-.container {
+.page-shell {
   display: grid;
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
   gap: 2.6rem;
@@ -102,7 +89,7 @@ body {
 
 .sidebar {
   position: sticky;
-  top: 5.6rem;
+  top: 6.2rem;
   align-self: start;
   display: flex;
   flex-direction: column;
@@ -228,7 +215,7 @@ body {
 .paper-author-line,
 .paper-status-line,
 .publication-info {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .paper-title-line {
@@ -236,13 +223,13 @@ body {
 }
 
 .paper-author-line {
-  margin-top: 0.08rem !important;
+  margin-top: 0.08rem;
   font-size: 0.95rem;
 }
 
 .paper-status-line,
 .publication-info {
-  margin-top: 0.06rem !important;
+  margin-top: 0.06rem;
   color: var(--muted);
   font-size: 0.94rem;
 }
@@ -334,25 +321,25 @@ body {
 }
 
 @media (max-width: 780px) {
-  .topbar-inner {
-    width: 100%;
+  .site-nav {
+    min-height: 58px;
+    gap: 1.3rem;
     padding: 0 0.75rem;
+    overflow-x: auto;
+    justify-content: safe center;
+    scrollbar-width: none;
   }
 
-  .topnav {
-    justify-content: center;
-    width: max-content;
-    max-width: 100%;
-    gap: 1.2rem;
-    min-height: 54px;
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
-  .topnav a {
-    min-height: 54px;
-    font-size: 0.96rem;
+  .site-nav a {
+    min-height: 58px;
+    font-size: 1rem;
   }
 
-  .container {
+  .page-shell {
     grid-template-columns: 1fr;
     width: min(680px, calc(100% - 2.2rem));
     gap: 1.2rem;
@@ -383,15 +370,15 @@ body {
     font-size: 15px;
   }
 
-  .topnav {
-    gap: 0.78rem;
+  .site-nav {
+    gap: 1rem;
   }
 
-  .topnav a {
-    font-size: 0.89rem;
+  .site-nav a {
+    font-size: 0.94rem;
   }
 
-  .container {
+  .page-shell {
     width: calc(100% - 1.5rem);
   }
 

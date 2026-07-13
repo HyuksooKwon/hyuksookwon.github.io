@@ -1,13 +1,13 @@
 # Hyuk-soo Kwon academic website
 
-Static HTML/CSS website with:
+Fresh static rebuild with one identical navigation template on all pages.
 
-- Top navigation: Main, Presentation, Teaching, CV
-- Sidebar: profile photo, name, affiliation, email
-- Main page: About Me and Research
-- Separate Presentation and Teaching pages
-- Collapsible abstracts
-- No Quarto dependency
+Navigation:
+- Main
+- Presentation
+- Teaching
+- CV
 
+The navigation is centered relative to the browser window.
 Profile photo: `files/profile.jpeg`
 CV: `files/CV.pdf`
