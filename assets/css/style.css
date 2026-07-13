@@ -81,9 +81,9 @@ body {
 
 .page-shell {
   display: grid;
-  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
-  gap: 2.6rem;
-  width: min(1120px, calc(100% - 4rem));
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 2.2rem;
+  width: min(1250px, calc(100% - 3rem));
   margin: 2rem auto 4rem;
 }
 
@@ -208,7 +208,16 @@ body {
 }
 
 .paper {
-  margin-bottom: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+
+.paper-title-line,
+.paper-author-line,
+.paper-status-line,
+.publication-info,
+.wip-item {
+  line-height: 1.48;
 }
 
 .paper-title-line,
@@ -292,7 +301,7 @@ body {
 }
 
 .publication {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .presentation-group,
@@ -365,23 +374,7 @@ body {
   }
 }
 
-/* Wider layout for the Presentation page */
-.presentation-page .page-shell {
-  width: min(1400px, calc(100% - 3rem));
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 2rem;
-}
-
-.presentation-page .presentation-group h2 {
-  font-size: 1rem;
-}
-
 @media (max-width: 470px) {
-  .presentation-page .page-shell {
-  grid-template-columns: 1fr;
-  width: min(680px, calc(100% - 2.2rem));
-  }
-  
   body {
     font-size: 15px;
   }
