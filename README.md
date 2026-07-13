@@ -1,31 +1,25 @@
 # Hyuk-soo Kwon academic website
 
-This is a Quarto academic website prepared for deployment through GitHub Pages.
+A simple static academic website inspired by the layout of Ryungha Oh's site, with:
 
-## Content preserved from the current Google Site
-
-- Home introduction and contact information
-- Research order: Working Papers → Work in Progress → Publications
+- White background
+- Left profile sidebar
+- Main page containing About Me and Research
+- Separate Presentation and Teaching pages
 - Collapsible abstracts
-- Presentations grouped by paper
-- Existing Teaching page content
-- Paper and research-coverage links, including VoxChina and BFI links
-- A local CV path (`files/CV.pdf`)
+- Local CV at `files/CV.pdf`
+- GitHub Actions deployment without Quarto
 
-## Before first deployment
+## Upload
 
-1. Put the current CV at `files/CV.pdf`.
-2. The current profile image is loaded from the existing public VoxChina image. For long-run reliability, optionally save the preferred profile image as `images/profile.jpg` and replace the image path in `index.qmd`.
-3. Review `LINK_AUDIT.md`. A few links displayed on Google Sites could not be resolved to exact destination URLs and should be supplied before final launch.
+Replace the existing website files with the contents of this folder, commit, and push to `main`.
 
-## GitHub Pages deployment
+The workflow at `.github/workflows/pages.yml` deploys the static HTML files directly. No Quarto installation or rendering is required.
 
-The included workflow renders the Quarto site and deploys the `_site` artifact to GitHub Pages whenever `main` is updated.
+## Profile image
 
-After the files are in the repository:
+Place your portrait at:
 
-1. Open **Settings → Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Open the **Actions** tab and run **Deploy Quarto website to GitHub Pages**, or push a new commit to `main`.
-4. Check the temporary site at `https://hyuksookwon.github.io`.
-5. Add `hyuksookwon.com` only after the temporary site has been reviewed.
+`files/profile.jpg`
+
+All three pages already use this local image. A square or nearly square JPG of at least 800 × 800 pixels is recommended. Keep the filename exactly `profile.jpg`.
