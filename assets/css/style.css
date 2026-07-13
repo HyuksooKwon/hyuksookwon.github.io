@@ -42,11 +42,11 @@ body {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  justify-content: flex-start;
+  width: min(1200px, calc(100% - 3rem));
   min-height: 64px;
-  margin: 0;
-  padding: 0 1.25rem;
+  margin: 0 auto;
+  padding: 0 0 0 calc(230px + 2.2rem);
   gap: 2.6rem;
   white-space: nowrap;
 }
@@ -58,7 +58,7 @@ body {
   min-height: 64px;
   color: #2e2e2e;
   font-family: "Work Sans", Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.08rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -83,7 +83,7 @@ body {
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
   gap: 2.2rem;
-  width: min(1250px, calc(100% - 3rem));
+  width: min(1200px, calc(100% - 3rem));
   margin: 2rem auto 4rem;
 }
 
@@ -331,11 +331,13 @@ body {
 
 @media (max-width: 780px) {
   .site-nav {
+    width: min(680px, calc(100% - 2.2rem));
     min-height: 58px;
+    margin: 0 auto;
+    padding: 0;
     gap: 1.3rem;
-    padding: 0 0.75rem;
     overflow-x: auto;
-    justify-content: safe center;
+    justify-content: flex-start;
     scrollbar-width: none;
   }
 
@@ -345,7 +347,7 @@ body {
 
   .site-nav a {
     min-height: 58px;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .page-shell {
@@ -384,7 +386,7 @@ body {
   }
 
   .site-nav a {
-    font-size: 0.94rem;
+    font-size: 0.85rem;
   }
 
   .page-shell {
