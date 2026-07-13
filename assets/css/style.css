@@ -36,16 +36,29 @@ body {
 }
 
 .topbar-inner {
-  width: min(1120px, calc(100% - 4rem));
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
 }
 
 .topnav {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  width: max-content;
+  max-width: 100%;
   min-height: 58px;
+  margin: 0 auto;
+  gap: 2rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.topnav::-webkit-scrollbar {
+  display: none;
 }
 
 .topnav a {
@@ -322,11 +335,14 @@ body {
 
 @media (max-width: 780px) {
   .topbar-inner {
-    width: calc(100% - 2rem);
+    width: 100%;
+    padding: 0 0.75rem;
   }
 
   .topnav {
     justify-content: center;
+    width: max-content;
+    max-width: 100%;
     gap: 1.2rem;
     min-height: 54px;
   }
