@@ -211,34 +211,39 @@ body {
   margin-bottom: 0.8rem;
 }
 
-
-.paper-title-line,
-.paper-author-line,
-.paper-status-line,
-.publication-info,
-.wip-item {
+/* Use the same compact line spacing for Working Papers,
+   Work in Progress, and Publications. These selectors are deliberately
+   more specific than `.content p`, so browser-default paragraph spacing
+   cannot reappear. */
+.content .paper-title-line,
+.content .paper-author-line,
+.content .paper-status-line,
+.content .publication-info,
+.wip-item,
+.wip-item .paper-title,
+.wip-item .paper-author-line {
   line-height: 1.48;
 }
 
-.paper-title-line,
-.paper-author-line,
-.paper-status-line,
-.publication-info {
+.content .paper-title-line,
+.content .paper-author-line,
+.content .paper-status-line,
+.content .publication-info {
   margin: 0;
 }
 
-.paper-title-line {
-  line-height: 1.5;
+.content .paper-author-line,
+.content .paper-status-line,
+.content .publication-info {
+  margin-top: 0;
 }
 
 .paper-author-line {
-  margin-top: 0.08rem;
   font-size: 0.95rem;
 }
 
 .paper-status-line,
 .publication-info {
-  margin-top: 0.06rem;
   color: var(--muted);
   font-size: 0.94rem;
 }
