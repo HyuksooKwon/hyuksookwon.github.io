@@ -43,6 +43,7 @@ body {
 .topnav {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   min-height: 58px;
 }
@@ -206,16 +207,31 @@ body {
   font-weight: 600;
 }
 
-.cv-line {
-  margin-top: 1.2rem !important;
-}
-
 .paper {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.35rem;
 }
 
-.paper-heading {
-  margin-bottom: 0.08rem !important;
+.paper-title-line,
+.paper-author-line,
+.paper-status-line,
+.publication-info {
+  margin: 0 !important;
+}
+
+.paper-title-line {
+  line-height: 1.5;
+}
+
+.paper-author-line {
+  margin-top: 0.08rem !important;
+  font-size: 0.95rem;
+}
+
+.paper-status-line,
+.publication-info {
+  margin-top: 0.06rem !important;
+  color: var(--muted);
+  font-size: 0.94rem;
 }
 
 .title-link {
@@ -230,30 +246,9 @@ body {
   text-underline-offset: 0.17em;
 }
 
-.authors,
-.journal {
-  font-size: 0.95rem;
-}
-
-.paper-meta {
-  margin: 0.05rem 0 0 !important;
-  color: var(--muted);
-  font-size: 0.94rem;
-  font-style: italic;
-}
-
-.paper-links {
-  margin: 0.08rem 0 0 !important;
-  font-size: 0.94rem;
-}
-
-.delimiter {
-  margin: 0 0.16rem;
-  color: var(--link);
-}
-
 .abstract-toggle {
   display: inline;
+  margin-left: 0.35rem;
   padding: 0;
   border: 0;
   background: transparent;
@@ -261,14 +256,13 @@ body {
   cursor: pointer;
 }
 
-.chevron {
-  display: inline-block;
-  font-size: 0.78rem;
-  transition: transform 160ms ease;
+.solo-abstract {
+  margin-left: 0;
 }
 
-.abstract-toggle[aria-expanded="true"] .chevron {
-  transform: rotate(180deg);
+.paper-status-line a,
+.publication-info a {
+  margin-left: 0.12rem;
 }
 
 .abstract-content {
@@ -289,12 +283,16 @@ body {
   margin-bottom: 0;
 }
 
-.wip {
-  margin-bottom: 0.65rem !important;
+.wip-item {
+  margin-bottom: 0.8rem;
+}
+
+.wip-item .paper-author-line {
+  color: var(--muted);
 }
 
 .publication {
-  margin-bottom: 1.05rem;
+  margin-bottom: 1.2rem;
 }
 
 .presentation-group,
@@ -329,7 +327,7 @@ body {
 
   .topnav {
     justify-content: center;
-    gap: 1.35rem;
+    gap: 1.2rem;
     min-height: 54px;
   }
 
@@ -364,27 +362,26 @@ body {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 470px) {
   body {
     font-size: 15px;
   }
 
   .topnav {
-    gap: 0.9rem;
+    gap: 0.78rem;
   }
 
   .topnav a {
-    font-size: 0.91rem;
+    font-size: 0.89rem;
   }
 
   .container {
     width: calc(100% - 1.5rem);
   }
 
-  .authors,
-  .journal,
-  .paper-meta,
-  .paper-links {
+  .paper-author-line,
+  .paper-status-line,
+  .publication-info {
     font-size: 0.91rem;
   }
 }

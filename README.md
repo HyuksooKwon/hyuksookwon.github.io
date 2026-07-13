@@ -1,28 +1,13 @@
 # Hyuk-soo Kwon academic website
 
-This is a static HTML/CSS website.
+Static HTML/CSS website with:
 
-## Main structure
-
-- Top navigation: Main, Presentation, Teaching
-- Sidebar: portrait, name, Harris School of Public Policy, University of Chicago, email
-- Main page: About Me, CV, Working Papers, Work in Progress, Publications
+- Top navigation: Main, Presentation, Teaching, CV
+- Sidebar: profile photo, name, affiliation, email
+- Main page: About Me and Research
 - Separate Presentation and Teaching pages
 - Collapsible abstracts
 - No Quarto dependency
 
-## Profile photo
-
-Place your photo at:
-
-`files/profile.jpeg`
-
-## CV
-
-The CV is stored at:
-
-`files/CV.pdf`
-
-## Deployment
-
-The workflow at `.github/workflows/pages.yml` publishes the static files directly to GitHub Pages.
+Profile photo: `files/profile.jpeg`
+CV: `files/CV.pdf`
