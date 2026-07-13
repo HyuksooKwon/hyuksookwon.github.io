@@ -11,6 +11,13 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <header class="topbar">
+  <div class="topbar-inner">
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="index.html" class="active" aria-current="page">Main</a> <a href="presentations.html">Presentation</a> <a href="teaching.html">Teaching</a>
+    </nav>
+  </div>
+</header>
   <div class="container">
     <aside class="sidebar">
   <a class="profile-link" href="index.html" aria-label="Go to main page">
@@ -18,24 +25,22 @@
       <div class="profile-fallback" aria-hidden="true">HK</div>
       <img
         class="profile-img"
-        src="files/profile.jpg"
+        src="files/profile.jpeg"
         alt="Hyuk-soo Kwon"
+        onerror="this.style.display='none'"
       >
     </div>
   </a>
+
   <h2 class="name">Hyuk-soo Kwon</h2>
-  <p class="affiliation">University of Chicago</p>
-
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html">Main</a>
-    <a href="presentations.html">Presentation</a>
-    <a href="teaching.html">Teaching</a>
-  </nav>
-
-  <footer class="sidebar-footer">© <span class="current-year"></span></footer>
+  <div class="profile-details">
+    <div>Harris School of Public Policy</div>
+    <div>University of Chicago</div>
+    <div><a href="mailto:hskwon.econ@gmail.com">hskwon.econ@gmail.com</a></div>
+  </div>
 </aside>
     <main class="content">
-<section>
+      <section>
   <h1>About Me</h1>
 
   <p>
@@ -50,8 +55,7 @@
     and <span class="semi-bold">Industrial Organization</span>.
   </p>
 
-  <p class="contact-lines">
-    Email: <a href="mailto:hskwon.econ@gmail.com">hskwon.econ@gmail.com</a><br>
+  <p class="cv-line">
     My CV is available <a href="files/CV.pdf" target="_blank" rel="noopener">here</a>.
   </p>
 </section>
@@ -61,16 +65,16 @@
 
   <article class="paper">
     <p class="paper-heading">
-      <span class="paper-title">Attribute-Based Subsidies and Market Power: An Application to Electric Vehicles</span>
+      <a class="paper-title title-link"
+         href="https://www.dropbox.com/scl/fi/4o06h7dus05x0hngn2tsl/EV-subsidy.pdf?rlkey=po2eu5bq4r3z2f1i5hn8rf04n&amp;dl=0"
+         target="_blank" rel="noopener">Attribute-Based Subsidies and Market Power: An Application to Electric Vehicles</a>
       <span class="authors">, with Panle Barwick and Shanjun Li</span>
     </p>
     <p class="paper-meta">Revise &amp; Resubmit, <em>Journal of Political Economy</em></p>
     <p class="paper-links">
-      <a href="https://www.dropbox.com/scl/fi/4o06h7dus05x0hngn2tsl/EV-subsidy.pdf?rlkey=po2eu5bq4r3z2f1i5hn8rf04n&amp;dl=0" target="_blank" rel="noopener">[paper]</a>
+      <button class="abstract-toggle" type="button" aria-expanded="false">[Abstract <span class="chevron">⌄</span>]</button>
       <span class="delimiter">•</span>
       <a href="https://voxchina.org/show-3-373.html" target="_blank" rel="noopener">[VoxChina]</a>
-      <span class="delimiter">•</span>
-      <button class="abstract-toggle" type="button" aria-expanded="false">[abstract <span class="chevron">⌄</span>]</button>
     </p>
     <div class="abstract-content">
       <p>
@@ -93,20 +97,20 @@
 
   <article class="paper">
     <p class="paper-heading">
-      <span class="paper-title">Learning by Doing in the Global Electric Vehicle Battery Industry and Implications for Government Policies</span>
+      <a class="paper-title title-link"
+         href="https://www.dropbox.com/s/ztek9f53cwmi0on/EV%20battery.pdf?dl=0"
+         target="_blank" rel="noopener">Learning by Doing in the Global Electric Vehicle Battery Industry and Implications for Government Policies</a>
       <span class="authors">, with Panle Barwick, Shanjun Li, and Nahim Zahur</span>
     </p>
     <p class="paper-meta">Revise &amp; Resubmit, <em>American Economic Review</em></p>
     <p class="paper-links">
-      <a href="https://www.dropbox.com/s/ztek9f53cwmi0on/EV%20battery.pdf?dl=0" target="_blank" rel="noopener">[paper]</a>
+      <button class="abstract-toggle" type="button" aria-expanded="false">[Abstract <span class="chevron">⌄</span>]</button>
       <span class="delimiter">•</span>
       <a href="https://bfi.uchicago.edu/insights/drive-down-the-cost-learning-by-doing-and-government-policies-in-the-global-ev-battery-industry/" target="_blank" rel="noopener">[BFI Briefing]</a>
       <span class="delimiter">•</span>
       <a href="https://www.voxchina.org/show-3-402.html" target="_blank" rel="noopener">[VoxChina]</a>
       <span class="delimiter">•</span>
       <a href="https://epic.uchicago.edu/insights/experience-producing-evs-drives-down-costs-driving-up-sales-and-boosting-the-effectiveness-of-subsidies" target="_blank" rel="noopener">[EPIC Insight]</a>
-      <span class="delimiter">•</span>
-      <button class="abstract-toggle" type="button" aria-expanded="false">[abstract <span class="chevron">⌄</span>]</button>
     </p>
     <div class="abstract-content">
       <p>
@@ -129,13 +133,13 @@
 
   <article class="paper">
     <p class="paper-heading">
-      <span class="paper-title">Subsidies versus Tradable Credits for Electric Vehicles: The Role of Market Power in the Credit Market</span>
+      <a class="paper-title title-link"
+         href="https://www.dropbox.com/scl/fi/su0lzq6r6eukhgnvlllp2/JMP.pdf?dl=0&amp;rlkey=ja2xohmggiixwgeyj88kqp9mr&amp;st=utrf92qa"
+         target="_blank" rel="noopener">Subsidies versus Tradable Credits for Electric Vehicles: The Role of Market Power in the Credit Market</a>
     </p>
     <p class="paper-meta">Revise &amp; Resubmit, <em>Econometrica</em> (Job Market Paper)</p>
     <p class="paper-links">
-      <a href="https://www.dropbox.com/scl/fi/su0lzq6r6eukhgnvlllp2/JMP.pdf?dl=0&amp;rlkey=ja2xohmggiixwgeyj88kqp9mr&amp;st=utrf92qa" target="_blank" rel="noopener">[paper]</a>
-      <span class="delimiter">•</span>
-      <button class="abstract-toggle" type="button" aria-expanded="false">[abstract <span class="chevron">⌄</span>]</button>
+      <button class="abstract-toggle" type="button" aria-expanded="false">[Abstract <span class="chevron">⌄</span>]</button>
     </p>
     <div class="abstract-content">
       <p>
@@ -154,13 +158,13 @@
 
   <article class="paper">
     <p class="paper-heading">
-      <span class="paper-title">Equitable Energy Transitions? The Efficiency and Distributional Effects of Subsidies for Used Electric Vehicles</span>
+      <a class="paper-title title-link"
+         href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006680"
+         target="_blank" rel="noopener">Equitable Energy Transitions? The Efficiency and Distributional Effects of Subsidies for Used Electric Vehicles</a>
       <span class="authors">, with Hunt Allcott, Tess Snyder, and Levi Kiefer</span>
     </p>
     <p class="paper-links">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006680" target="_blank" rel="noopener">[paper]</a>
-      <span class="delimiter">•</span>
-      <button class="abstract-toggle" type="button" aria-expanded="false">[abstract <span class="chevron">⌄</span>]</button>
+      <button class="abstract-toggle" type="button" aria-expanded="false">[Abstract <span class="chevron">⌄</span>]</button>
     </p>
     <div class="abstract-content">
       <p>
@@ -204,14 +208,14 @@
 
   <article class="paper publication">
     <p class="paper-heading">
-      <span class="paper-title">Industrial Policies and Innovation: Evidence from the Global Automobile Industry</span>,
+      <a class="paper-title title-link"
+         href="https://www.sciencedirect.com/science/article/pii/S0167718725000967"
+         target="_blank" rel="noopener">Industrial Policies and Innovation: Evidence from the Global Automobile Industry</a>,
       <span class="journal"><em>International Journal of Industrial Organization</em> (2026)</span>,
       <span class="authors">with Yucheng Wang, Panle Barwick, Shanjun Li, and Nahim Zahur</span>
     </p>
     <p class="paper-meta">NBER featured working paper (December 2024)</p>
     <p class="paper-links">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0167718725000967" target="_blank" rel="noopener">[journal]</a>
-      <span class="delimiter">•</span>
       <a href="https://bfi.uchicago.edu/insights/industrial-policies-and-innovation-evidence-from-the-global-automobile-industry/" target="_blank" rel="noopener">[BFI Briefing]</a>
       <span class="delimiter">•</span>
       <a href="https://epic.uchicago.edu/insights/with-more-policies-encouraging-consumers-to-buy-evs-came-a-threefold-increase-in-new-ev-technology-patents/?mc_cid=9fae8a9575&amp;mc_eid=18d6c56a73" target="_blank" rel="noopener">[EPIC Insight]</a>
@@ -220,27 +224,25 @@
 
   <article class="paper publication">
     <p class="paper-heading">
-      <span class="paper-title">Pass-Through of Electric Vehicle Subsidies: A Global Analysis</span>,
+      <a class="paper-title title-link"
+         href="https://www.dropbox.com/s/wyiix4s06fo6ivf/GlobalEVPassThrough.pdf?dl=0"
+         target="_blank" rel="noopener">Pass-Through of Electric Vehicle Subsidies: A Global Analysis</a>,
       <span class="journal"><em>AEA Papers and Proceedings</em> (2023)</span>,
       <span class="authors">with Panle Barwick, Binglin Wang, and Nahim Zahur</span>
-    </p>
-    <p class="paper-links">
-      <a href="https://www.dropbox.com/s/wyiix4s06fo6ivf/GlobalEVPassThrough.pdf?dl=0" target="_blank" rel="noopener">[paper]</a>
     </p>
   </article>
 
   <article class="paper publication">
     <p class="paper-heading">
-      <span class="paper-title">Knowledge Spillovers and Patent Citations: Trends in Geographic Localization, 1976–2015</span>,
+      <a class="paper-title title-link"
+         href="https://www.tandfonline.com/doi/full/10.1080/10438599.2020.1787001?cookieSet=1"
+         target="_blank" rel="noopener">Knowledge Spillovers and Patent Citations: Trends in Geographic Localization, 1976–2015</a>,
       <span class="journal"><em>Economics of Innovation and New Technology</em> (2022)</span>,
-      <span class="authors">with Jihong Lee and Ryungha Oh</span>
-    </p>
-    <p class="paper-links">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/10438599.2020.1787001?cookieSet=1" target="_blank" rel="noopener">[journal]</a>
+      <span class="authors">with Jihong Lee, Sokbae Lee, and Ryungha Oh</span>
     </p>
   </article>
 </section>
-</main>
+    </main>
   </div>
   <script src="assets/js/main.js"></script>
 </body>

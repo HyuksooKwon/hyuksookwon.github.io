@@ -1,25 +1,28 @@
 # Hyuk-soo Kwon academic website
 
-A simple static academic website inspired by the layout of Ryungha Oh's site, with:
+This is a static HTML/CSS website.
 
-- White background
-- Left profile sidebar
-- Main page containing About Me and Research
+## Main structure
+
+- Top navigation: Main, Presentation, Teaching
+- Sidebar: portrait, name, Harris School of Public Policy, University of Chicago, email
+- Main page: About Me, CV, Working Papers, Work in Progress, Publications
 - Separate Presentation and Teaching pages
 - Collapsible abstracts
-- Local CV at `files/CV.pdf`
-- GitHub Actions deployment without Quarto
+- No Quarto dependency
 
-## Upload
+## Profile photo
 
-Replace the existing website files with the contents of this folder, commit, and push to `main`.
+Place your photo at:
 
-The workflow at `.github/workflows/pages.yml` deploys the static HTML files directly. No Quarto installation or rendering is required.
+`files/profile.jpeg`
 
-## Profile image
+## CV
 
-Place your portrait at:
+The CV is stored at:
 
-`files/profile.jpg`
+`files/CV.pdf`
 
-All three pages already use this local image. A square or nearly square JPG of at least 800 × 800 pixels is recommended. Keep the filename exactly `profile.jpg`.
+## Deployment
+
+The workflow at `.github/workflows/pages.yml` publishes the static files directly to GitHub Pages.

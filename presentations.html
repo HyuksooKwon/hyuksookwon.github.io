@@ -11,6 +11,13 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <header class="topbar">
+  <div class="topbar-inner">
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="index.html">Main</a> <a href="presentations.html" class="active" aria-current="page">Presentation</a> <a href="teaching.html">Teaching</a>
+    </nav>
+  </div>
+</header>
   <div class="container">
     <aside class="sidebar">
   <a class="profile-link" href="index.html" aria-label="Go to main page">
@@ -18,27 +25,23 @@
       <div class="profile-fallback" aria-hidden="true">HK</div>
       <img
         class="profile-img"
-        src="files/profile.jpg"
+        src="files/profile.jpeg"
         alt="Hyuk-soo Kwon"
+        onerror="this.style.display='none'"
       >
     </div>
   </a>
+
   <h2 class="name">Hyuk-soo Kwon</h2>
-  <p class="affiliation">University of Chicago</p>
-
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html">Main</a>
-    <a href="presentations.html">Presentation</a>
-    <a href="teaching.html">Teaching</a>
-  </nav>
-
-  <footer class="sidebar-footer">© <span class="current-year"></span></footer>
+  <div class="profile-details">
+    <div>Harris School of Public Policy</div>
+    <div>University of Chicago</div>
+    <div><a href="mailto:hskwon.econ@gmail.com">hskwon.econ@gmail.com</a></div>
+  </div>
 </aside>
     <main class="content">
-<section>
-  <h1>Presentations</h1>
-
-  <div class="presentation-group">
+      <section class="page-section first-section">
+  <div class="presentation-group first-group">
     <h2>Equitable Energy Transitions? The Efficiency and Distributional Effects of Subsidies for Used Electric Vehicles</h2>
     <ul>
       <li>UC Berkeley Energy Camp (June 24, 2026)</li>
@@ -97,7 +100,7 @@
     </ul>
   </div>
 </section>
-</main>
+    </main>
   </div>
   <script src="assets/js/main.js"></script>
 </body>

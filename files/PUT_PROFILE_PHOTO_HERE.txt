@@ -1,0 +1,13 @@
+Place your portrait in this folder using exactly this filename:
+
+profile.jpeg
+
+The website already points to:
+
+files/profile.jpeg
+
+Recommended:
+- JPEG format
+- Square or nearly square crop
+- At least 800 × 800 pixels
+- Keep the filename exactly profile.jpeg
